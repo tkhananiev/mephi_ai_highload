@@ -1,0 +1,70 @@
+# =========================
+# Go build artifacts
+# =========================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.cover
+*.coverprofile
+*.prof
+*.pprof
+
+# Binaries
+/bin/
+/build/
+/dist/
+
+# Go workspace
+go.work
+go.work.sum
+
+# Vendor (если НЕ используешь vendor)
+vendor/
+
+# =========================
+# IDE
+# =========================
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+*.tar
+
+# =========================
+# Kubernetes temp
+# =========================
+kubeconfig
+*.kubeconfig
+
+# =========================
+# Test / coverage
+# =========================
+coverage.*
+htmlcov/
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
